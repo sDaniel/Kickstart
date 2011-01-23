@@ -3,12 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <title>Kickstart Page Title</title>
-  <link href="css/screen.css" rel="stylesheet" media="screen" type="text/css" />
-  <link href="css/print.css" rel="stylesheet" media="print" type="text/css" />
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
-  <meta name="robots" content="index, follow" />
-  <script src="js/html5.js"></script>
+  <link href="./css/screen.css" rel="stylesheet" media="screen" type="text/css" />
+  <link href="./css/reset.css" rel="stylesheet" media="screen" type="text/css" />
+  <link href="./css/print.css" rel="stylesheet" media="print" type="text/css" />
+  <link href="./css/jquery.fancybox-1.3.4.css" rel="stylesheet"media="screen" type="text/css" />
+  <meta name="./description" content="" />
+  <meta name="./keywords" content="" />
+  <meta name="./robots" content="index, follow" />
+  <script src="./js/html5.js"></script>
   <script>document.documentElement.className += " js";</script>
 </head>
 
@@ -19,9 +21,14 @@
 
   <!-- Content goes here -->
 
-  <script src="js/jquery-1.4.2.min.js"></script>
-  <script src="js/fancybox-1.3.1.min.js"></script>
-  <script src="js/domscript.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script>
+        !window.jQuery && document.write('<script src="./js/jquery-1.4.4.min.js"><\/script>');
+    </script>
+  <script src="./js/jquery.easing-1.3.pack.js"></script>
+  <script src="./js/jquery.mousewheel-3.0.4.pack.js"></script>
+  <script src="./js/jquery.fancybox-1.3.4.pack.js"></script>
+  <script src="./js/domscript.js"></script>
   <script>jQuery(dom_init);</script>
 </body>
 </html>
