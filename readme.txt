@@ -5,4 +5,4 @@ Based on the work of Kickstart
 Version 1.5 | Release: 2010-11-25
 by Gerrit van Aaken (http://praegnanz.de)
 
-No rights reserved.
+No rights reserved. 
